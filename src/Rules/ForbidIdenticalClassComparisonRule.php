@@ -29,6 +29,8 @@ use PHPStan\Type\Type;
 use PHPStan\Type\UnionType;
 use PHPStan\Type\VerbosityLevel;
 
+use function Safe\sprintf;
+
 /**
  * Rewrite of ShipMonk\PHPStan\Rule\ForbidIdenticalClassComparisonRule
  * to replace their blacklist with an allow list
